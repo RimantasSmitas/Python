@@ -7,7 +7,7 @@ total = 0.0
 for year in range(1,years+1):
     for month in range(1,13):
         print("Type in the amount of rain for the ",month,"month of year ",year)
-        rainfall = int(input())
+        rainfall = float(input())
         totalRainfall.append(rainfall)
 
 
@@ -23,3 +23,6 @@ for year in range(1,years+1):
 print("The total is: ",total)
 monthlyAverage = total / (years*12)
 print("Monthly average is ",format(monthlyAverage))
+
+
+
