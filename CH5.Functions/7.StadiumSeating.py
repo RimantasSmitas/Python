@@ -11,8 +11,10 @@ def main():
 
 def Calculator(aCount,bCount,cCount):
     totalprice = (aCount * aSeat) + (bCount*bSeat)+(cCount+cSeat)
+    Printer(totalprice)
 
 
-
+def Printer(message):
+    print("total income was: ",message)
 
 main()
